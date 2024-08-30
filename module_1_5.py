@@ -2,7 +2,7 @@ immutable_var = 1, 2, 'a', 'b'
 print('immutable_var:', immutable_var)
 print(immutable_var[0])
 print(immutable_var[1])
-#mutable_list =[1]=200
+#immutable_var=[1]=200
 print('Кортеж относится к неизменяемым типам данных.')
 print('Но в себе он может хранить изменяемые объекты, если внутри кортежа будет список.')
 mutable_list=[1, 2, 3, 4, 'a','b']
